@@ -81,25 +81,7 @@ This section documents the Week 2 progress of my Garbage Classification project.
 
 ### 4. Accuracy & Loss Curves
 - The training and validation performance was tracked using the history object returned by model.fit().
-- Code for displaying Accuracy and Loss graphs:
-    import matplotlib.pyplot as plt
-    # Accuracy Plot
-    plt.plot(history.history['accuracy'], label='Train Accuracy')
-    plt.plot(history.history['val_accuracy'], label='Val Accuracy')
-    plt.title("Model Accuracy")
-    plt.xlabel("Epoch")
-    plt.ylabel("Accuracy")
-    plt.legend()
-    plt.show()
-
-    # Loss Plot
-    plt.plot(history.history['loss'], label='Train Loss')
-    plt.plot(history.history['val_loss'], label='Val Loss')
-    plt.title("Model Loss")
-    plt.xlabel("Epoch")
-    plt.ylabel("Loss")
-    plt.legend()
-    plt.show()
+- Code for Accuracy and Loss graphs.
 
 ---
 
